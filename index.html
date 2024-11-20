@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إرسال رسالة</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>إرسال رسالة</h1>
+        <form id="messageForm">
+            <label for="username">اسم المستخدم:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="message">الرسالة:</label>
+            <textarea id="message" name="message" maxlength="200" required></textarea>
+            
+            <button type="submit">إرسال</button>
+        </form>
+    </div>
+</body>
+</html>
